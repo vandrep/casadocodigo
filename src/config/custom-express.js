@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({
     extended: true
-}))
+}));
 
 const rotas = require('../app/rotas/rotas');
 rotas(app);
